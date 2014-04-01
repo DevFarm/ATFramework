@@ -1,5 +1,6 @@
 <?php
 
+
 function autoload($class)
 {
     if (mb_strstr($class, '\ATCore')) {
